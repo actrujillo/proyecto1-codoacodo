@@ -1,0 +1,126 @@
+header {
+  background: #4e4e4e;
+  color: #333;
+  height: 10vh;
+  max-width: 100vw;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #adadad;
+}
+
+ul li a:hover {
+  color: #fefefe;
+  transition: 0.3s;
+}
+
+header .container {
+  max-width: 100vw;
+}
+
+.hero {
+  position: relative;
+  background: #222;
+  overflow: hidden;
+  height: 90vh;
+}
+
+.hero .container {
+  min-width: 100vw;
+}
+
+.text-green {
+  color: #03b803;
+}
+
+.text-green:hover {
+  color: #05aa02;
+}
+
+.hero::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.4;
+  background: url("./images/ba1.jpg") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.m-hero {
+  padding: 0 6rem 6rem 4rem;
+}
+
+.oradores h3 {
+  font-size: 0.8rem;
+  width: 20%;
+}
+
+.oradores .subtitle {
+  font-size: 2rem;
+}
+
+.oradores span {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0rem 0.2rem;
+}
+
+.card {
+  padding: 0;
+}
+
+.bsas {
+  background: #4e4e4e;
+  color: #fefefe;
+  border-left: 0.1rem solid white;
+}
+
+.carousel-bsas {
+  max-width: 100vw;
+  padding: 0;
+}
+
+.text-form {
+  font-size: 0.7rem;
+}
+
+.btn-submit {
+  color: #fff;
+  font-weight: 600;
+  background: #80d401;
+  margin: 0.5rem 0 1rem;
+}
+
+.btn-submit:hover {
+  color: #fff;
+  background: #68ac03;
+  transition: 0.3s;
+}
+
+footer {
+  background: rgb(5, 40, 56);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 0;
+}
+
+footer ul li {
+  width: 10%;
+}
+
+footer ul li a {
+  color: #fefefe;
+}
+
+footer ul li a:hover {
+  color: #aaa;
+  transition: 0.3s;
+}
