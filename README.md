@@ -5,6 +5,8 @@ Este es un proyecto realizado como práctica para el curso de Codo a Codo. En es
 Es importante mencionar que este proyecto no está diseñado como responsive, por lo que se recomienda visualizarlo en un dispositivo de escritorio para tener una mejor experiencia.
 
 ## Tecnologías utilizadas
-
 - HTML
 - CSS (Bootstrap y CSS nativo)
+
+## Deployment
+Este proyecto se encuentra desplegado en Netlify, puedes verlo aquí: https://trujillo-codoacodo1.netlify.app/
