@@ -36,7 +36,7 @@
                 <a href="">Conviertete en orador</a>
               </li>
               <li>
-                <a href="" class="text-green">Comprar tickets</a>
+                <a href="#tickets" class="text-green">Comprar tickets</a>
               </li>
             </ul>
           </div>
@@ -166,7 +166,13 @@
         <div class="col-6 bsas p-4">
           <h3>Bs As - Octubre</h3>
           <p>
-            Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).
+            Buenos Aires es la provincia y localidad más grande del estado de
+            Argentina, en los Estados Unidos. Honolulu es la más sureña de entre
+            las principales ciudades estadounidenses. Aunque el nombre de
+            Honolulu se refiere al área urbana en la costa sureste de la isla de
+            Oahu, la ciudad y el condado de Honolulu han formado una
+            ciudad-condado consolidada que cubre toda la ciudad (aproximadamente
+            600km² de superficie).
           </p>
           <button class="btn btn-outline-light">Conocé más</button>
         </div>
@@ -210,13 +216,113 @@
       </div>
     </div>
 
+    <div class="container" id="tickets">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <div class="descuento">
+            <div class="descuento-item blue">
+              <h3>Estudiante</h3>
+              <p>Tienen un descuento</p>
+              <span>80%</span>
+              <p class="item-docu">* presentar documentacion</p>
+            </div>
+            <div class="descuento-item green">
+              <h3>Trainee</h3>
+              <p>Tienen un descuento</p>
+              <span>50%</span>
+              <p class="item-docu">* presentar documentacion</p>
+            </div>
+            <div class="descuento-item orange">
+              <h3>Junior</h3>
+              <p>Tienen un descuento</p>
+              <span>15%</span>
+              <p class="item-docu">* presentar documentacion</p>
+            </div>
+          </div>
+
+          <form action="" class="form-alumnos">
+            <div class="form-titulos">
+              <span>VENTA</span>
+              <h2>VALOR DE TICKET $200</h2>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" />
+              </div>
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Apellido"
+                />
+              </div>
+            </div>
+            <input
+              type="email"
+              placeholder="Correo"
+              class="form-control my-3"
+            />
+
+            <div class="row mb-4">
+              <div class="col">
+                <label for="">Cantidad</label>
+                <input
+                  type="number"
+                  placeholder="cantidad"
+                  class="form-control"
+                  value=""
+                  id="cantidad"
+                />
+              </div>
+              <div class="col">
+                <label for="">Categoria</label>
+                <select name="" id="select" class="form-control">
+                  <option value="estudiante">Estudiante</option>
+                  <option value="trainee">Trainee</option>
+                  <option value="junior">Junior</option>
+                </select>
+              </div>
+            </div>
+
+            <p class="total-cuadro">
+              Total a Pagar: $ <span id="totalPagar"></span>
+            </p>
+
+            <div class="row">
+              <div class="col">
+                <input
+                  type="button"
+                  value="Borrar"
+                  id="buttonDelete"
+                  class="btn btn-submit w-100"
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="button"
+                  value="Resumen"
+                  id="buttonResumen"
+                  class="btn btn-submit w-100"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+
     <footer>
       <div class="container-fluid">
         <div class="row col-12">
           <div class="col-1"></div>
 
           <div class="col-10">
-            <ul class="nav d-flex justify-content-evenly align-items-center text-center">
+            <ul
+              class="nav d-flex justify-content-evenly align-items-center text-center"
+            >
               <li><a href="">Preguntas frecuentes</a></li>
               <li><a href="">Contáctanos</a></li>
               <li><a href="">Prensa</a></li>
@@ -231,5 +337,6 @@
         </div>
       </div>
     </footer>
+    <script src="/main.js"></script>
   </body>
 </html>

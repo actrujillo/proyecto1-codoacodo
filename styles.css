@@ -124,3 +124,65 @@ footer ul li a:hover {
   color: #aaa;
   transition: 0.3s;
 }
+
+.descuento {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.descuento-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  margin: 0.2rem;
+  padding: 5px;
+  width: 45%;
+}
+
+.descuento-item p {
+  margin: 0;
+}
+
+.descuento-item h3 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.descuento-item span {
+  font-weight: bold;
+}
+
+.item-docu {
+  font-size: 0.8rem;
+}
+
+.orange {
+  border: 2px solid #ffc107;
+}
+
+.green {
+  border: 2px solid #198754;
+}
+
+.blue {
+  border: 2px solid #0d6efd;
+}
+
+.form-alumnos label {
+  margin-bottom: 1rem;
+}
+
+.total-cuadro {
+  background: #576f924f;
+  border-radius: 0.4rem;
+  color: #374c6b;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.form-titulos {
+  text-align: center;
+  margin: 0 0 1rem;
+}
